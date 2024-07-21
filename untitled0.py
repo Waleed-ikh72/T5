@@ -14,7 +14,6 @@ df = pd.DataFrame({'Student' : ['A', 'A', 'A', 'B', 'B', 'C'],
 print(df, end='\n\n')
 
 opt1 = df.groupby("Student").mean()
+opt1
 
 
-
-print(group.mean())
